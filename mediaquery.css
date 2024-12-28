@@ -1,0 +1,13 @@
+@media screen and (max-width:1024px)  {
+    .card{
+        grid-column: span 2;
+    }
+}
+@media screen and (max-width:640px)  {
+    .card{
+        grid-column: span 4;
+    }
+    .container {
+        gap: 30px;
+    }
+}
